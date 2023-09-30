@@ -1,0 +1,37 @@
+html.light{
+  background-color: #292C35;
+  transition: 0.5s;
+}
+
+html.light #trocar{
+  background-color: #292C35;
+  transition: 0.5s;
+}
+
+.hide{
+  display: none;
+}
+
+html{
+  transition: 0.5s;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#trocar{
+  cursor: pointer;
+  background-color: white; 
+  border-style: none;
+  transition: 0.5s;
+}	
+
+#trocar #lua, #sol{
+  width: 100px; 
+  
+}
